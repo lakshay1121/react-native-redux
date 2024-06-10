@@ -3,11 +3,10 @@ import { StyleSheet, View, ScrollView } from "react-native";
 import Product from "./Product";
 import Header from "./Header";
 
-
 const MainComponent = () => {
   const products = [
     {
-      name: "Samsunga Mobile",
+      name: "Samsung Mobile",
       color: "white",
       price: 30000,
       image:
